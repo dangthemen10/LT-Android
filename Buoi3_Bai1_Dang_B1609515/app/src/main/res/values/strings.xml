@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Buoi3_Bai1_Dang_B1609515</string>
+    <string name="txt">Lập trình với ListView</string>
+    <string name="btn1">LISTVIEW CONTROL VỚI MẢNG DỮ LIỆU ĐỊNH SẲN</string>
+    <string name="btn2">LISTVIEW VỚI MẢNG DỮ LIỆU ĐƯỢC LƯU TRONG XML</string>
+    <string name="btn3">ARRAYLIST VÀ LISTVIEWCONTROL</string>
+    <string name="btn4">ARRAYLIST VÀ CÁC OBJECT BẤT KỲ</string>
+    <string name="btn5">LISTVIEW DƯỚI DẠNG LISTACTIVTY</string>
+    <string name="btn6">THOÁT</string>
+</resources>

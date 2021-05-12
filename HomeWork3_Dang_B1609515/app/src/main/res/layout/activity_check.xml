@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".check">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt5"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt6"
+        android:textColor="#F45663"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/nhapso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#C7DDDF"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="40sp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt7"
+            android:textColor="#15DD19"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/txtchanhayle"
+            android:background="#E2F6F8"
+            android:text="                                                        "
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt8"
+            android:textColor="#15DD19"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtdaysovuanhap"
+            android:background="#E2F6F8"
+            android:text="                                                        "
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TableRow>
+            <Button
+                android:id="@+id/btnketqua"
+                style="@android:style/Widget.Holo.Button.Inset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt9"
+                android:textColor="#111010"
+                android:textSize="30sp" />
+            <TextView />
+            <TextView />
+
+            <Button
+                android:id="@+id/btnthoatchanle"
+                style="@android:style/Widget.Holo.Button.Inset"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginEnd="230dp"
+                android:layout_marginRight="60dp"
+                android:text="@string/txt10"
+                android:textColor="#111010"
+                android:textSize="30sp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

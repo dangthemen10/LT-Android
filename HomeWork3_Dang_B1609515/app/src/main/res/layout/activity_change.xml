@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".change">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt11"
+        android:textColor="@android:color/background_dark"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/edtnhapso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#DDFADD"
+        android:inputType="number"
+        android:text="@string/txt6"
+        android:textAlignment="center"
+        android:textColor="#C5C5BB"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnTPsangNP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt12"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnNPsangTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt13"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt14"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtThapphan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#DDFADD"
+                android:text="                                 "
+                android:textColor="#B0C023"
+                android:textSize="30sp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt15"
+                android:textColor="#000"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/edtNhiphan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:background="#DDFADD"
+                android:text="                                  "
+                android:textSize="30sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnbacknhiphan"
+        style="@android:style/Widget.Holo.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:text="@string/txt16"
+        android:textColor="#000"
+        android:textSize="25sp" />
+</LinearLayout>

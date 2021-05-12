@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calculator">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/txt17"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#1090F7"/>
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt18"
+                android:textColor="#000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edtnhapsoluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="#E5F3E5"
+                android:hint="@string/txt25"
+                android:textSize="24sp"
+                android:visibility="visible"
+                android:layout_marginLeft="5dp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt19"
+                android:textColor="#000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edtnhapdongia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:background="#E5F3E5"
+                android:hint="@string/txt25"
+                android:textSize="24sp"
+                android:layout_marginLeft="15dp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt20"
+                android:textColor="#000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edtnhaptilethue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="#E5F3E5"
+                android:hint="@string/txt25"
+                android:textSize="24sp"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt26"
+                android:textColor="#000"
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btntinhtien"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:background="#E2E8D9"
+                android:text="@string/txt22"
+                android:textColor="#FA0101"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btntieptuc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="#E2E8D9"
+                android:gravity="center"
+                android:text="@string/txt21"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textthanhtien"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/txt24"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtthanhtien"
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="#DBF1C2"
+                android:inputType="number"
+                android:text="                                  "
+                android:textColor="#0C0C0C"
+                android:textSize="35dp" />
+
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/btnthoatbanhang"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#B8B8AD"
+        android:text="@string/txt23"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+</LinearLayout>

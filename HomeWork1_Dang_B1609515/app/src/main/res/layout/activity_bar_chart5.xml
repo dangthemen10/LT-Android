@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarChart.BarChart5">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#0d09de">
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/imagebuttoncot"
+        android:src="@mipmap/back1"
+        android:background="#0d09de"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đồ thị cột"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+</LinearLayout>
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginBottom="5dp"
+android:layout_marginTop="5dp">
+<ImageView
+    android:layout_marginLeft="5dp"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginRight="5dp"
+    android:background="#ffffbb33"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="tên cột"
+    android:layout_marginTop="2dp"
+    android:textSize="15dp"
+    android:textStyle="italic"
+    android:textColor="#da0909"
+    android:id="@+id/textviewtenduong1"/>
+
+<ImageView
+    android:layout_marginLeft="8dp"
+    android:layout_width="20dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="20dp"
+    android:background="#ff33b5e5"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="tên cột"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:textStyle="italic"
+    android:textSize="15dp"
+    android:textColor="#da0909"
+    android:id="@+id/textviewtenduong2"/>
+
+<ImageView
+    android:layout_marginLeft="2dp"
+    android:layout_width="20dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="20dp"
+    android:background="#ff99cc00"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="tên cột"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:textStyle="italic"
+    android:textSize="15dp"
+    android:textColor="#da0909"
+    android:id="@+id/textviewtenduong3"/>
+<ImageView
+    android:layout_marginLeft="2dp"
+    android:layout_width="20dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="20dp"
+    android:background="#F4511E"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="tên cột"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:textStyle="italic"
+    android:textSize="15dp"
+    android:textColor="#8E24AA"
+    android:id="@+id/textviewtenduong4"/>
+<ImageView
+    android:layout_marginLeft="2dp"
+    android:layout_width="20dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="20dp"
+    android:background="#8E24AA"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="tên cột"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="2dp"
+    android:textStyle="italic"
+    android:textSize="15dp"
+    android:textColor="#8E24AA"
+    android:id="@+id/textviewtenduong5"/>
+</LinearLayout
+    >
+
+<com.github.mikephil.charting.charts.BarChart
+android:id="@+id/BarChartMpAndroid"
+android:layout_width="350dp"
+android:layout_height="400dp"
+android:layout_gravity="center"
+android:layout_marginTop="40dp"
+    >
+</com.github.mikephil.charting.charts.BarChart
+    >
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/texViewBar"
+android:textColor="#da0909"
+android:textStyle="italic"
+android:textAlignment="center"
+android:textSize="15dp"/>
+</LinearLayout>

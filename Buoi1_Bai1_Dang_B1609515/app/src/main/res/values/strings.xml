@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Buoi1_Bai1_Dang_B1609515</string>
+    <string name="btntest">TEST</string>
+    <string name="btnexit">EXIT</string>
+    <string name="content1">btnImag1</string>
+    <string name="content2">btnImag2</string>
+    <string name="content3">btnImag3</string>
+    <string name="ed_message">Enter message</string>
+    <string name="chkautosave">Autosave</string>
+    <string name="star">Starstyle</string>
+    <string name="rb1">Option 1</string>
+    <string name="rb2">Option 2</string>
+    <string name="txt1">Hien thi text se nhap vao EditText</string>
+</resources>

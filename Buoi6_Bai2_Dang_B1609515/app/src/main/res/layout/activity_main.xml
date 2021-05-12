@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="SMS MANAGER"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="#bbbbff"
+        android:textColor="#ff0000"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/newmessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="NEW MESSAGE"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#bbffff"
+        android:textAllCaps="true"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/inbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        tools:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="INBOX"
+        android:background="#bbffbb"
+        android:textColor="#0000ff"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/exit"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="EXIT"
+        android:background="#ffbbbb"
+        android:clickable="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tren_song"
+        />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btgetAllContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem tất cả liên lạc"/>
+    <Button
+        android:id="@+id/btgetAllCallLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem lịch sử cuộc gọi"/>
+    <Button
+        android:id="@+id/btgetMediaList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách media"/>
+    <ImageView
+        android:scaleType="fitStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tren_song"/>
+
+</LinearLayout>

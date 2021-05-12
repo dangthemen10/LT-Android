@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Buoi6_Bai1_Dang_B1609515</string>
+    <string name="txt1">BUỔI THỰC HÀNH THỨ 6 - BÀI 1</string>
+    <string name="txt2">Nhập vào địa chỉ của một trang web</string>
+    <string name="txt3">URL</string>
+    <string name="txt4">https://ctu.edu.vn</string>
+    <string name="txt5">DUYỆT WEB</string>
+    <string name="txt6">LOẠI KẾT NỐI</string>
+</resources>

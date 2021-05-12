@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HomeWork3_Dang_B1609515</string>
+    <string name="txt1">Hãy ấn và giữ nút "Chọn chức năng" </string>
+    <string name="txt2">CHỌN CHỨC NĂNG</string>
+    <string name="txt3">Ẩn/Hiện</string>
+    <string name="txt4">THOÁT</string>
+    <string name="txt5">KIỂM TRA CHẴN LẺ</string>
+    <string name="txt6">Hãy nhập vào số nguyên</string>
+    <string name="txt7">Chẵn/lẽ: </string>
+    <string name="txt8">Dãy số đã nhập: </string>
+    <string name="txt9">Kết Quả</string>
+    <string name="txt10">Trở Về</string>
+    <string name="txt11">Chuyển đổi giữa thập phân và nhị phân</string>
+    <string name="txt12">Đổi từ thập phân sang nhị phân</string>
+    <string name="txt13">Đổi từ nhị phân sang thập phân</string>
+    <string name="txt14">Thập phân</string>
+    <string name="txt15">Nhị phân   </string>
+    <string name="txt16">Trở Về</string>
+    <string name="txt17">TÍNH TIỀN BÁN HÀNG</string>
+    <string name="txt18">Nhập số lượng: </string>
+    <string name="txt19">Nhập đơn giá:  </string>
+    <string name="txt20">Nhập tỉ lệ thuế:</string>
+    <string name="txt21">TIẾP TỤC</string>
+    <string name="txt22">TÍNH TIỀN</string>
+    <string name="txt23">Trở Về</string>
+    <string name="txt24">Thành Tiền:</string>
+    <string name="txt25">Nhập số nguyên</string>
+    <string name="txt26">%</string>
+</resources>
